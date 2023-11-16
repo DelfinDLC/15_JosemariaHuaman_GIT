@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package S11_09_E01;
+package S11_15_E01;
 
 /**
  *
@@ -16,7 +16,7 @@ public class Main_S11_09_E01 {
     public static void main(String[] args) {
         Estudiante_09_E01 estudiante = new Estudiante_09_E01("San Marcos", 20, "Alberto");
         Empleado_09_E01 empleado = new Empleado_09_E01("Valle Grande", 30, "Rosa");
-        Jubilado_09_E01 jubilado = new Jubilado_09_E01("Javier", 2000, 65);
+        Jubilado_09_E01 jubilado = new Jubilado_09_E01("Jose", 2000, 65);
 
         estudiante.saludar();
         estudiante.estudiar();
